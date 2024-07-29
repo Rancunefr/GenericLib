@@ -1,0 +1,12303 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "BAT"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BAT"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.8382 0.4252 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2 -10 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 3 -12 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BAT_0_1"
+			(polyline
+				(pts
+					(xy 4.9 -0.6) (xy 4.9 -1.616)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.408 -1.108) (xy 4.392 -1.108)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.3 1)
+				(end 2.808 -1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 3.3 2)
+				(end 3.554 -2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "BAT_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.2)
+				(name "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.4)
+				(name "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "BAT_Multicell"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BAT"
+			(at 5 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.604 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 5 -6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BAT_Multicell_0_1"
+			(polyline
+				(pts
+					(xy 3.556 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.064 0) (xy 4.318 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 0) (xy 4.826 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 5.334 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 0) (xy 5.842 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.747 -0.254) (xy 7.747 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 -0.762) (xy 7.239 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.0988 1.3208)
+				(end 2.5908 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 3.683 2.032)
+				(end 3.429 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 5.7658 1.3208)
+				(end 6.2738 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 6.604 2.032)
+				(end 6.858 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "BAT_Multicell_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 9 0 180)
+				(length 2.1)
+				(name "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "BR"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BR"
+			(at 6 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 3 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Full bridge rectifier"
+			(at 6 -19 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BR_0_1"
+			(polyline
+				(pts
+					(xy 3 -3) (xy 6 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 -3) (xy 6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6 -6) (xy 9 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6 0) (xy 9 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.8 -3.8) (xy 4.8 -4.8) (xy 3.8 -4.8) (xy 4.8 -3.8)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.8 -2.2) (xy 4.8 -1.2) (xy 3.8 -1.2) (xy 4.8 -2.2)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.8 -4.2) (xy 7.8 -4.2) (xy 7.8 -5.2) (xy 6.8 -4.2)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.8 -1.8) (xy 7.8 -1.8) (xy 7.8 -0.8) (xy 6.8 -1.8)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "BR_1_0"
+			(pin unspecified line
+				(at 0 0 0)
+				(length 3)
+				(name "AC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -6 0)
+				(length 2.5)
+				(name "AC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 9 -9 90)
+				(length 2.5)
+				(name "DC_P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3 -8.96 90)
+				(length 2.5)
+				(name "DC_N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BR_1_1"
+			(polyline
+				(pts
+					(xy 3 -7) (xy 3 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 0) (xy 6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5 -4.3) (xy 4.3 -5.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5 -1.7) (xy 4.3 -0.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6 -6) (xy 2 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6 0) (xy 6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.3 -3.5) (xy 8.5 -4.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.3 -2.5) (xy 8.5 -1.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9 -8) (xy 9 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1 1)
+				(end 11 -8)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 -3)
+				(radius 0.2236)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 6 -6)
+				(radius 0.2236)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 6 0)
+				(radius 0.2236)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 9 -3)
+				(radius 0.2236)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "+"
+				(at 10.5 -9 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+						(color 132 0 0 1)
+					)
+				)
+			)
+			(text "-"
+				(at 1.5 -9 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+						(color 132 0 0 1)
+					)
+				)
+			)
+			(text "AC"
+				(at -0.5 -3 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+						(color 132 0 0 1)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 3 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3 -3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.31 4.4652 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 3.6 0.1 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 3 -9.6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy 2.5 -2.2) (xy 2.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5 -2.2) (xy 3.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_Polarized"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 3 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3.1 -3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.89 -3.0652 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -15 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 3.1 -5.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(polyline
+				(pts
+					(xy 4.9 -0.4) (xy 4.9 -1.416)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.408 -0.908) (xy 4.392 -0.908)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(polyline
+				(pts
+					(xy 3.5 -2.2) (xy 3.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.8 -2.1)
+				(mid 2.6145 0)
+				(end 1.8 2.1)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.7)
+				(name "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.4)
+				(name "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_Polarized_alt"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 3 3.3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3.1 -3.7 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.89 -3.0652 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -15 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor (alt)"
+			(at 3.1 -5.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Polarized_alt_0_1"
+			(polyline
+				(pts
+					(xy 5.1 -0.6) (xy 5.1 -1.616)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.608 -1.108) (xy 4.592 -1.108)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.3 2.2)
+				(end 2.8 -2.2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 3.4 2.2)
+				(end 3.9 -2.2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Polarized_alt_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.2)
+				(name "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2)
+				(name "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_alt"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 3 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3.1 -3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.89 -3.0652 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -15 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor (alt)"
+			(at 3.1 -5.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_alt_1_1"
+			(polyline
+				(pts
+					(xy 3.5 -2.2) (xy 3.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.8 -2.1)
+				(mid 2.6145 0)
+				(end 1.8 2.1)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.7)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.4)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -8.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 3 -6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_0_1"
+			(polyline
+				(pts
+					(xy 1.73 0) (xy 4.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.5 -1.3) (xy 4.5 1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7 -1.3) (xy 1.7 1.3) (xy 4.3 0) (xy 1.7 -1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "D_1_1"
+			(pin passive line
+				(at 6 0 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "DIAC"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3.1 -3.8 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.07 0.04 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -4.3 -12.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode for alternating current"
+			(at 3 -5.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DIAC_0_1"
+			(polyline
+				(pts
+					(xy 1.8 -2.5) (xy 1.8 2.58) (xy 4.34 1.31) (xy 1.8 0.04)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.34 2.58) (xy 4.34 -2.5) (xy 1.8 -1.23) (xy 4.34 0.04)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "DIAC_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 1.9)
+				(name "A1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.7)
+				(name "A2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_LED"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -7 -10.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 2.5 -6.6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_LED_0_1"
+			(polyline
+				(pts
+					(xy 4.27 1.27) (xy 4.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.73 1.27) (xy 1.73 -1.27) (xy 4.27 0) (xy 1.73 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5 1.3) (xy 3.1 1.9) (xy 2.7 1.9) (xy 3.1 1.9) (xy 3.1 1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2 0.9) (xy 3.8 1.5) (xy 3.4 1.5) (xy 3.8 1.5) (xy 3.8 1.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_LED_1_1"
+			(pin passive line
+				(at 6 0 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_LED_blue"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -7 -10.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode [Blue]"
+			(at 2.5 -6.6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at -2.5 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_LED_blue_0_1"
+			(polyline
+				(pts
+					(xy 4.27 1.27) (xy 4.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5 1.3) (xy 3.1 1.9) (xy 2.7 1.9) (xy 3.1 1.9) (xy 3.1 1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2 0.9) (xy 3.8 1.5) (xy 3.4 1.5) (xy 3.8 1.5) (xy 3.8 1.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_LED_blue_1_1"
+			(polyline
+				(pts
+					(xy 1.73 1.27) (xy 1.73 -1.27) (xy 4.27 0) (xy 1.73 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 0 255 255 1)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.7)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.7)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_LED_green"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -7 -10.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode [Green]"
+			(at 2.5 -6.6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at -2.5 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_LED_green_0_1"
+			(polyline
+				(pts
+					(xy 4.27 1.27) (xy 4.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5 1.3) (xy 3.1 1.9) (xy 2.7 1.9) (xy 3.1 1.9) (xy 3.1 1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2 0.9) (xy 3.8 1.5) (xy 3.4 1.5) (xy 3.8 1.5) (xy 3.8 1.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_LED_green_1_1"
+			(polyline
+				(pts
+					(xy 1.73 1.27) (xy 1.73 -1.27) (xy 4.27 0) (xy 1.73 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 0 255 0 1)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.7)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.7)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_LED_red"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -7 -10.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode [Red]"
+			(at 2.5 -6.6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at -2.5 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_LED_red_0_1"
+			(polyline
+				(pts
+					(xy 4.27 1.27) (xy 4.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5 1.3) (xy 3.1 1.9) (xy 2.7 1.9) (xy 3.1 1.9) (xy 3.1 1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2 0.9) (xy 3.8 1.5) (xy 3.4 1.5) (xy 3.8 1.5) (xy 3.8 1.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_LED_red_1_1"
+			(polyline
+				(pts
+					(xy 1.73 1.27) (xy 1.73 -1.27) (xy 4.27 0) (xy 1.73 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 0 0 1)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.7)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.7)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_LED_yellow"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -7 -10.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode [Yellow]"
+			(at 3 -4.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at -0.5 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_LED_yellow_0_1"
+			(polyline
+				(pts
+					(xy 4.27 1.27) (xy 4.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5 1.3) (xy 3.1 1.9) (xy 2.7 1.9) (xy 3.1 1.9) (xy 3.1 1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2 0.9) (xy 3.8 1.5) (xy 3.4 1.5) (xy 3.8 1.5) (xy 3.8 1.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_LED_yellow_1_1"
+			(polyline
+				(pts
+					(xy 1.73 1.27) (xy 1.73 -1.27) (xy 4.27 0) (xy 1.73 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 255 0 1)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.7)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.7)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_Photo"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.032 0.002 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.1 -5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiode"
+			(at 3.2 -5.1 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Photo_0_1"
+			(polyline
+				(pts
+					(xy 4.27 1.27) (xy 4.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.73 1.27) (xy 1.73 -1.27) (xy 4.27 0) (xy 1.73 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.1 1.8) (xy 2.5 1.2) (xy 2.9 1.2) (xy 2.5 1.2) (xy 2.5 1.6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.9 1.5) (xy 3.3 0.9) (xy 3.7 0.9) (xy 3.3 0.9) (xy 3.3 1.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Photo_1_1"
+			(pin passive line
+				(at 6 0 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_Schottky"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 2.9 -2.4 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -7.4 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 3 -5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Schottky_0_1"
+			(polyline
+				(pts
+					(xy 1.73 0) (xy 4.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9 -1.3) (xy 1.9 1.3) (xy 4.37 0) (xy 1.9 -1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.9 -0.9) (xy 3.9 -1.3) (xy 4.5 -1.3) (xy 4.5 1.3) (xy 5.1 1.3) (xy 5.1 0.8)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Schottky_1_1"
+			(pin passive line
+				(at 6 0 180)
+				(length 2.6)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_TVS"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3.1 2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 2 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -8.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transient-voltage-suppression diode"
+			(at 3 -4 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_TVS_0_1"
+			(polyline
+				(pts
+					(xy 3.27 0) (xy 0.73 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -1.3) (xy 4.54 -0.03) (xy 2 1.3) (xy 2 -1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 1.3) (xy 4.5 1.3) (xy 4.5 -1.3) (xy 4 -1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_TVS_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_TVS_bidir"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3.1 2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 2 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -8.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 3 -4 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 3 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_TVS_bidir_0_1"
+			(polyline
+				(pts
+					(xy 3.27 0) (xy 0.73 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.5 -1.3) (xy 3.04 -0.03) (xy 0.5 1.3) (xy 0.5 -1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5 1.3) (xy 3 1.3) (xy 3 -1.3) (xy 2.5 -1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5 1.3) (xy 5.5 -1.3) (xy 3.04 -0.03) (xy 5.5 1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "D_TVS_bidir_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D_Zener"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 3 2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3.1 -2.6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -9.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 2.9 -5.4 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Zener_0_1"
+			(polyline
+				(pts
+					(xy 1.73 0) (xy 4.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 1.3) (xy 1.8 -1.3) (xy 4.27 0) (xy 1.8 1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.7 1.3) (xy 4.3 0.9) (xy 4.3 -0.9) (xy 3.9 -1.3)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Zener_1_1"
+			(pin passive line
+				(at 6 0 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "F"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 3 1.8 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3 -1.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 -1.773 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -7.9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 3 -3.9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*Fuse*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "F_0_1"
+			(polyline
+				(pts
+					(xy 1 0) (xy 5 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.54 -0.757)
+				(end 0.46 0.767)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "F_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "FB"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FB"
+			(at 3.5 3.7 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 2.9 -4.1 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 4 1.778 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 12.6 -7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 3.2 -6.2 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FB_0_1"
+			(polyline
+				(pts
+					(xy 3.5 2.8) (xy 5.3 1.8) (xy 2.8 -2.8) (xy 0.9 -1.7) (xy 3.5 2.8)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FB_1_1"
+			(pin passive line
+				(at 6 0 180)
+				(length 1.65)
+				(name "~"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.85)
+				(name "~"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_Connector_1x2"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header 1x2"
+			(at 3 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 4.5 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 4.5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "J_Connector_1x2_0_1"
+			(circle
+				(center 3 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x2_1_1"
+			(polyline
+				(pts
+					(xy 2 -3) (xy 2.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 1.1)
+				(end 4 -4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 2)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_Connector_1x3"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header 1x3"
+			(at 3 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 4.5 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 4.5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 4.5 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "J_Connector_1x3_0_1"
+			(circle
+				(center 3 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x3_1_1"
+			(polyline
+				(pts
+					(xy 2 -6) (xy 2.5 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3) (xy 2.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 1.1)
+				(end 4 -7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 2)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 2)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_Connector_1x4"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header 1x4"
+			(at 3 -12 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 4.5 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 4.5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 4.5 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_04" "## PIN4"
+			(at 4.5 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "J_Connector_1x4_0_1"
+			(circle
+				(center 3 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x4_1_1"
+			(polyline
+				(pts
+					(xy 2 -9) (xy 2.5 -9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -6) (xy 2.5 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3) (xy 2.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 1.1)
+				(end 4 -10)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 2)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 2)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 2)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_Connector_1x5"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header 1x5"
+			(at 3 -17 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 4.5 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 4.5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 4.5 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_04" "## PIN4"
+			(at 4.5 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_05" "## PIN5"
+			(at 4.5 -12 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "J_Connector_1x5_0_1"
+			(circle
+				(center 3 -12)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x5_1_1"
+			(polyline
+				(pts
+					(xy 2 -12) (xy 2.5 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -9) (xy 2.5 -9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -6) (xy 2.5 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3) (xy 2.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 1.1)
+				(end 4 -13)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 2)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 2)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 2)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 2)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_Connector_1x6"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header 1x6"
+			(at 3 -17 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 4.5 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 4.5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 4.5 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_04" "## PIN4"
+			(at 4.5 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_05" "## PIN5"
+			(at 4.5 -12 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_06" "## PIN6"
+			(at 4.5 -15 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "J_Connector_1x6_0_1"
+			(circle
+				(center 3 -15)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -12)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x6_1_1"
+			(polyline
+				(pts
+					(xy 2 -15) (xy 2.5 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12) (xy 2.5 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -9) (xy 2.5 -9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -6) (xy 2.5 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3) (xy 2.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 1.1)
+				(end 4 -16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 2)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 2)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 2)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 2)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 2)
+				(name "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_Connector_1x7"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header 1x7"
+			(at 3.5 -20.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 4.5 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 4.5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 4.5 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_04" "## PIN4"
+			(at 4.5 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_05" "## PIN5"
+			(at 4.5 -12 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_06" "## PIN6"
+			(at 4.5 -15 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_07" "## PIN7"
+			(at 4.5 -18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "J_Connector_1x7_0_1"
+			(circle
+				(center 3 -18)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -15)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -12)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x7_1_1"
+			(polyline
+				(pts
+					(xy 2 -18) (xy 2.5 -18)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -15) (xy 2.5 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12) (xy 2.5 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -9) (xy 2.5 -9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -6) (xy 2.5 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3) (xy 2.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 1.1)
+				(end 4 -19.1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 2)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 2)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 2)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 2)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 2)
+				(name "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 2)
+				(name "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_Connector_1x8"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header 1x8"
+			(at 3.5 -23.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 4.5 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 4.5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 4.5 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_04" "## PIN4"
+			(at 4.5 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_05" "## PIN5"
+			(at 4.5 -12 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_06" "## PIN6"
+			(at 4.5 -15 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_07" "## PIN7"
+			(at 4.5 -18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_08" "## PIN8"
+			(at 4.5 -21 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "J_Connector_1x8_0_1"
+			(circle
+				(center 3 -21)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -18)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -15)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -12)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x8_1_1"
+			(polyline
+				(pts
+					(xy 2 -21) (xy 2.5 -21)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -18) (xy 2.5 -18)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -15) (xy 2.5 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -12) (xy 2.5 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -9) (xy 2.5 -9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -6) (xy 2.5 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3) (xy 2.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 1.1)
+				(end 4 -22.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 3 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 2)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 2)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 2)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 2)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 2)
+				(name "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 2)
+				(name "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 2)
+				(name "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_RJ45_w_Leds"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 12 4 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ45 Connector with Y and G Leds / 100M + 1G"
+			(at 12 -42 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(symbol "J_RJ45_w_Leds_1_1"
+			(rectangle
+				(start 3 2)
+				(end 21 -38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "TX+"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DA+" passive line)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "LED_Y_K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "LED_G_A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3)
+				(name "LED_G_K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 24 -33 180)
+				(length 3)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 24 -36 180)
+				(length 3)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3)
+				(name "TX-"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DA-" passive line)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "RX+"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DB+" passive line)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DC+" passive line)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DC-" passive line)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "RX-"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DB-" passive line)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DD+" passive line)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(alternate "DD-" passive line)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3)
+				(name "LED_Y_A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "L"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 3 1.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3 -1 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.005 0.0027 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2 -4.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 3 -3.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L_0_1"
+			(arc
+				(start 1.735 0.0027)
+				(mid 1.1 0.635)
+				(end 0.465 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.005 0.0027)
+				(mid 2.37 0.635)
+				(end 1.735 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.275 0.0027)
+				(mid 3.64 0.635)
+				(end 3.005 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.545 0.0027)
+				(mid 4.91 0.635)
+				(end 4.275 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 0.4)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.4)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "OP"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "OP"
+			(at 6 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler"
+			(at 6 -12 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 6.5 -8 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OP_0_1"
+			(polyline
+				(pts
+					(xy 3 -4.27) (xy 3 -1.73)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 0) (xy 3 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -3) (xy 10 -1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -6) (xy 10 -5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 0) (xy 10 -1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -3) (xy 9.905 -4.905) (xy 9.905 -4.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.73 -1.73) (xy 4.27 -1.73) (xy 3 -4.27) (xy 1.73 -1.73)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -3) (xy 6.524 -4.524) (xy 6.524 -3.762) (xy 6.524 -4.524) (xy 5.762 -4.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -1.73) (xy 6.524 -3.254) (xy 6.524 -2.492) (xy 6.524 -3.254) (xy 5.762 -3.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.27 -4.778) (xy 9.778 -4.27) (xy 10 -5) (xy 9.27 -4.778) (xy 9.27 -4.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "OP_1_1"
+			(polyline
+				(pts
+					(xy 1.73 -4.27) (xy 4.27 -4.27)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -1) (xy 8 -4.81) (xy 8 -4.81)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1 1)
+				(end 11 -7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 0 180)
+				(length 2)
+				(name "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -6 180)
+				(length 2)
+				(name "E"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "E"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "K"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Q_BJT_NPN"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 1.9 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.08 2.54 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -18 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor"
+			(at 5 -16 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Q_BJT_NPN_0_1"
+			(polyline
+				(pts
+					(xy 1.9 -0.2) (xy 3 -1.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9 0.2) (xy 3 1.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9 1.2) (xy 1.9 -1.2)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.4 -1) (xy 2.7 -0.7) (xy 2.8 -1.1) (xy 2.4 -1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.6 0)
+				(radius 2.2023)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Q_BJT_NPN_1_1"
+			(pin input line
+				(at 0 0 0)
+				(length 1.9)
+				(name "B"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "B"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 3 270)
+				(length 1.7)
+				(name "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 -3 90)
+				(length 1.7)
+				(name "E"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "E"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Q_BJT_PNP"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 13.3 3.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.08 2.54 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -18 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP Transistor"
+			(at 5 -16 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 11.4 6.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Q_BJT_PNP_0_1"
+			(polyline
+				(pts
+					(xy 1.9 -1.2) (xy 1.9 1.2)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9 -0.2) (xy 3 -1.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9 0.2) (xy 3 1.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.9 0.9) (xy 2.6 1.2) (xy 2.5 0.8) (xy 2.9 0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.6 0)
+				(radius 2.2023)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Q_BJT_PNP_1_1"
+			(pin input line
+				(at 0 0 0)
+				(length 1.9)
+				(name "B"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "B"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 -3 90)
+				(length 1.7)
+				(name "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 3 270)
+				(length 1.7)
+				(name "E"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "E"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Q_MOSFET_N"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET"
+			(at 3.1 -11.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Q_MOSFET_N_0_1"
+			(polyline
+				(pts
+					(xy 1.4 1.2) (xy 1.4 -1.2)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 -0.9) (xy 3 0) (xy 1.8 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 -0.9) (xy 3.9 -0.9) (xy 3.9 0.9) (xy 1.8 0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9 0) (xy 2.3 0.2) (xy 2.3 -0.2) (xy 1.9 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.4 0.4) (xy 3.6 0.2) (xy 4.2 0.2) (xy 4.4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.6 0.1)
+				(radius 2.2023)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -0.9)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 3 0.9)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Q_MOSFET_N_1_1"
+			(polyline
+				(pts
+					(xy 1.8 -0.6) (xy 1.8 -1.2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 0.3) (xy 1.8 -0.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 1.2) (xy 1.8 0.6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.9 0.1) (xy 3.7 -0.2) (xy 4.1 -0.2) (xy 3.9 0.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 3 3 270)
+				(length 2.1)
+				(name "D"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 1.4)
+				(name "G"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 -3 90)
+				(length 2.1)
+				(name "S"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Q_MOSFET_P"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 9.9 0.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 9.9 0.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET"
+			(at 3 -11.2 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 5 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Q_MOSFET_P_0_1"
+			(polyline
+				(pts
+					(xy 1.4 1.2) (xy 1.4 -1.2)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 0.9) (xy 3 0) (xy 1.8 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 -0.9) (xy 3.9 -0.9) (xy 3.9 0.9) (xy 1.8 0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.6 0) (xy 2.2 0.2) (xy 2.2 -0.2) (xy 2.6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.4 -0.4) (xy 3.6 -0.2) (xy 4.2 -0.2) (xy 4.4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.6 0.1)
+				(radius 2.2023)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -0.9)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 3 0.9)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Q_MOSFET_P_1_1"
+			(polyline
+				(pts
+					(xy 1.8 -0.6) (xy 1.8 -1.2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 0.3) (xy 1.8 -0.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 1.2) (xy 1.8 0.6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.9 -0.1) (xy 3.7 0.2) (xy 4.1 0.2) (xy 3.9 -0.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 3 3 270)
+				(length 2.1)
+				(name "D"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 1.4)
+				(name "G"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 -3 90)
+				(length 2.1)
+				(name "S"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 3 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3 -2.1 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.254 1.016 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2 -3.4 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29 11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0_1"
+			(polyline
+				(pts
+					(xy 0.7 0) (xy 1.081 1.016) (xy 1.462 0) (xy 1.843 -1.016) (xy 2.224 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.224 0) (xy 2.605 1.016) (xy 2.986 0) (xy 3.367 -1.016) (xy 3.748 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.748 0) (xy 4.129 1.016) (xy 4.51 0) (xy 4.891 -1.016) (xy 5.272 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 0.7)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.7)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_alt"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 3 1.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.254 1.016 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2 -3.4 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29 11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_alt_0_0"
+			(rectangle
+				(start 0.4 1)
+				(end 5.6 -1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_alt_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 0.4)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.4)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW_PushButton"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 4 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 5 5.08 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 4 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 3 -3.9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_PushButton_1_1"
+			(polyline
+				(pts
+					(xy 3 1) (xy 3 2)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5 2) (xy 2.5 2)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 1) (xy 1 1)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1 0)
+				(radius 0.4)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5 0)
+				(radius 0.4)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 0.6)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.6)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW_PushButton_45deg"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 2 1 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -10 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.6 -1.6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 4.1 3.1 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 1.5 -4.8 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_PushButton_45deg_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.4 -0.4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.2 -1) (xy 2.6 -0.6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.46 -0.36) (xy 2.86 -0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 -3) (xy 2.6 -2.6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 0)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_PushButton_45deg_1_1"
+			(polyline
+				(pts
+					(xy 1.2 -0.1) (xy 3 -1.9)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.7 -0.7)
+				(radius 0.4)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.3 -2.3)
+				(radius 0.4)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 3 -3 180)
+				(length 0)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW_PushButton_Open"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 2.9 2.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 13.8 -38.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 5 5.08 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5 5.08 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 2.9 -2.6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(symbol "SW_PushButton_Open_1_1"
+			(polyline
+				(pts
+					(xy 2.9 -0.8) (xy 2.9 1)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.4 1) (xy 2.4 1)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -0.8) (xy 1 -0.8)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1 0)
+				(radius 0.4)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5 0)
+				(radius 0.4)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 0.6)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.6)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW_Switch_DPST"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 3 2.7 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 17.6 -19.58 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.6 -14.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.6 -17.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch - Double Pole Single Throw (DPST) "
+			(at 3 -6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Switch_DPST_0_0"
+			(polyline
+				(pts
+					(xy 3 -1.4) (xy 3 -1.015)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 -0.65) (xy 3 -0.265)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 0.1) (xy 3 0.485)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Switch_DPST_1_0"
+			(polyline
+				(pts
+					(xy 1.476 -2.746) (xy 4.524 -1.222)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.476 0.254) (xy 4.524 1.778)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1 -3)
+				(radius 0.5)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1 0)
+				(radius 0.5)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5 -3)
+				(radius 0.468)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5 0)
+				(radius 0.468)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Switch_DPST_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 0.5)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.5)
+				(name "B"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 0.5)
+				(name "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 -3 180)
+				(length 0.5)
+				(name "D"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW_Switch_SPDT"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 3 4 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -1 11.9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.032 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -0.8 9.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch - Single Pole Double Throw (SPDT)"
+			(at 3 -6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Switch_SPDT_0_0"
+			(polyline
+				(pts
+					(xy 5 -3) (xy 4.6 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 3) (xy 4.6 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Switch_SPDT_1_0"
+			(polyline
+				(pts
+					(xy 2 0.3) (xy 5.1 1.6)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.5 0)
+				(radius 0.5)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.4 -2.1)
+				(radius 0.468)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.4 2.1)
+				(radius 0.468)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Switch_SPDT_1_1"
+			(pin passive line
+				(at 6 3 180)
+				(length 1)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1)
+				(name "B"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 -3 180)
+				(length 1)
+				(name "C"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SW_Switch_SPST"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 2.5 2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.1 -4.8 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch - Single Pole Single Throw (SPST) "
+			(at 3 -3.7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Switch_SPST_1_0"
+			(polyline
+				(pts
+					(xy 1.476 0.254) (xy 4.6 1.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1 0)
+				(radius 0.5)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5 0)
+				(radius 0.468)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Switch_SPST_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 0.5)
+				(name "A"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.5)
+				(name "B"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "T_CT_Iron"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 6 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transformer - Center Tap on secondary - Iron Core"
+			(at 6 -18 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 6 -16 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 8 -3.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "T_CT_Iron_0_1"
+			(polyline
+				(pts
+					(xy 1 -12) (xy 4 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 0) (xy 4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.7 0) (xy 5.7 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.3 0) (xy 6.3 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.9 -12) (xy 11 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -6) (xy 11 -6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 0) (xy 11 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -12)
+				(mid 4.75 -11.25)
+				(end 4 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -10.5)
+				(mid 4.75 -9.75)
+				(end 4 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -9)
+				(mid 4.75 -8.25)
+				(end 4 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -7.5)
+				(mid 4.75 -6.75)
+				(end 4 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -6)
+				(mid 4.75 -5.25)
+				(end 4 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -4.5)
+				(mid 4.75 -3.75)
+				(end 4 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -3)
+				(mid 4.75 -2.25)
+				(end 4 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -1.5)
+				(mid 4.75 -0.75)
+				(end 4 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -10.5)
+				(mid 7.25 -11.25)
+				(end 8 -12)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -9)
+				(mid 7.25 -9.75)
+				(end 8 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -7.5)
+				(mid 7.25 -8.25)
+				(end 8 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -6)
+				(mid 7.25 -6.75)
+				(end 8 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -4.5)
+				(mid 7.25 -5.25)
+				(end 8 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -3)
+				(mid 7.25 -3.75)
+				(end 8 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -1.5)
+				(mid 7.25 -2.25)
+				(end 8 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 0)
+				(mid 7.25 -0.75)
+				(end 8 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "T_CT_Iron_1_1"
+			(rectangle
+				(start 1 1)
+				(end 11 -15)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 8 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "N1"
+				(at 3 -13.5 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "N2"
+				(at 9.5 -13.5 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1)
+				(name "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 1)
+				(name "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 0 180)
+				(length 1)
+				(name "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -12 180)
+				(length 1)
+				(name "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -6 180)
+				(length 1)
+				(name "N2-CT"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-CT"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "T_Dual_Iron"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 6 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 6 -0.77 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 6 -0.77 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 6 -0.77 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Transformer - Iron core"
+			(at 9.5 -31 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "T_Dual_Iron_0_1"
+			(polyline
+				(pts
+					(xy 1 -27) (xy 4 -27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 -15) (xy 4 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 -12) (xy 4 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 0) (xy 4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.9 -27) (xy 11 -27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.9 -12) (xy 11 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 -15) (xy 11 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 0) (xy 11 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -27)
+				(mid 4.75 -26.25)
+				(end 4 -25.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -25.5)
+				(mid 4.75 -24.75)
+				(end 4 -24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -24)
+				(mid 4.75 -23.25)
+				(end 4 -22.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -22.5)
+				(mid 4.75 -21.75)
+				(end 4 -21)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -21)
+				(mid 4.75 -20.25)
+				(end 4 -19.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -19.5)
+				(mid 4.75 -18.75)
+				(end 4 -18)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -18)
+				(mid 4.75 -17.25)
+				(end 4 -16.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -16.5)
+				(mid 4.75 -15.75)
+				(end 4 -15)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -12)
+				(mid 4.75 -11.25)
+				(end 4 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -10.5)
+				(mid 4.75 -9.75)
+				(end 4 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -9)
+				(mid 4.75 -8.25)
+				(end 4 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -7.5)
+				(mid 4.75 -6.75)
+				(end 4 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -6)
+				(mid 4.75 -5.25)
+				(end 4 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -4.5)
+				(mid 4.75 -3.75)
+				(end 4 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -3)
+				(mid 4.75 -2.25)
+				(end 4 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -1.5)
+				(mid 4.75 -0.75)
+				(end 4 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -25.5)
+				(mid 7.25 -26.25)
+				(end 8 -27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -24)
+				(mid 7.25 -24.75)
+				(end 8 -25.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -22.5)
+				(mid 7.25 -23.25)
+				(end 8 -24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -21)
+				(mid 7.25 -21.75)
+				(end 8 -22.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -19.5)
+				(mid 7.25 -20.25)
+				(end 8 -21)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -18)
+				(mid 7.25 -18.75)
+				(end 8 -19.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -16.5)
+				(mid 7.25 -17.25)
+				(end 8 -18)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -15)
+				(mid 7.25 -15.75)
+				(end 8 -16.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -10.5)
+				(mid 7.25 -11.25)
+				(end 8 -12)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -9)
+				(mid 7.25 -9.75)
+				(end 8 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -7.5)
+				(mid 7.25 -8.25)
+				(end 8 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -6)
+				(mid 7.25 -6.75)
+				(end 8 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -4.5)
+				(mid 7.25 -5.25)
+				(end 8 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -3)
+				(mid 7.25 -3.75)
+				(end 8 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -1.5)
+				(mid 7.25 -2.25)
+				(end 8 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 0)
+				(mid 7.25 -0.75)
+				(end 8 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "T_Dual_Iron_1_1"
+			(polyline
+				(pts
+					(xy 5.7 -15) (xy 5.7 -27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.7 0) (xy 5.7 -12)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.3 -15) (xy 6.3 -27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.3 0) (xy 6.3 -12)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1 1)
+				(end 11 -28)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 -15.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 4 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 8 -15.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 8 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "N1"
+				(at 2.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "N2"
+				(at 9.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "N3"
+				(at 2.5 -21 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "N4"
+				(at 9.5 -21 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1)
+				(name "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 1)
+				(name "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 0 180)
+				(length 1)
+				(name "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -12 180)
+				(length 1)
+				(name "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 1)
+				(name "N3-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N3-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 1)
+				(name "N3-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N3-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -15 180)
+				(length 1)
+				(name "N4-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N4-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -27 180)
+				(length 1)
+				(name "N4-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N4-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "T_Simple_Air"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 6 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transformer - Air Core"
+			(at 9 -17 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 6 -14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 8 -3.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "T_Simple_Air_0_1"
+			(polyline
+				(pts
+					(xy 1 -12) (xy 4 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 0) (xy 4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.9 -12) (xy 11 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 0) (xy 11 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -12)
+				(mid 4.75 -11.25)
+				(end 4 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -10.5)
+				(mid 4.75 -9.75)
+				(end 4 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -9)
+				(mid 4.75 -8.25)
+				(end 4 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -7.5)
+				(mid 4.75 -6.75)
+				(end 4 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -6)
+				(mid 4.75 -5.25)
+				(end 4 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -4.5)
+				(mid 4.75 -3.75)
+				(end 4 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -3)
+				(mid 4.75 -2.25)
+				(end 4 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -1.5)
+				(mid 4.75 -0.75)
+				(end 4 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -10.5)
+				(mid 7.25 -11.25)
+				(end 8 -12)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -9)
+				(mid 7.25 -9.75)
+				(end 8 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -7.5)
+				(mid 7.25 -8.25)
+				(end 8 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -6)
+				(mid 7.25 -6.75)
+				(end 8 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -4.5)
+				(mid 7.25 -5.25)
+				(end 8 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -3)
+				(mid 7.25 -3.75)
+				(end 8 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -1.5)
+				(mid 7.25 -2.25)
+				(end 8 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 0)
+				(mid 7.25 -0.75)
+				(end 8 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "T_Simple_Air_1_1"
+			(rectangle
+				(start 1 1)
+				(end 11 -13)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 8 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "N1"
+				(at 2.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "N2"
+				(at 9.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1)
+				(name "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 1)
+				(name "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 0 180)
+				(length 1)
+				(name "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -12 180)
+				(length 1)
+				(name "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "T_Simple_Ferrite"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 6 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transformer - Ferrite Core"
+			(at 9 -17 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 6 -14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 8 -3.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "T_Simple_Ferrite_0_1"
+			(polyline
+				(pts
+					(xy 1 -12) (xy 4 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 0) (xy 4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.9 -12) (xy 11 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 0) (xy 11 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -12)
+				(mid 4.75 -11.25)
+				(end 4 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -10.5)
+				(mid 4.75 -9.75)
+				(end 4 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -9)
+				(mid 4.75 -8.25)
+				(end 4 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -7.5)
+				(mid 4.75 -6.75)
+				(end 4 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -6)
+				(mid 4.75 -5.25)
+				(end 4 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -4.5)
+				(mid 4.75 -3.75)
+				(end 4 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -3)
+				(mid 4.75 -2.25)
+				(end 4 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -1.5)
+				(mid 4.75 -0.75)
+				(end 4 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -10.5)
+				(mid 7.25 -11.25)
+				(end 8 -12)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -9)
+				(mid 7.25 -9.75)
+				(end 8 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -7.5)
+				(mid 7.25 -8.25)
+				(end 8 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -6)
+				(mid 7.25 -6.75)
+				(end 8 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -4.5)
+				(mid 7.25 -5.25)
+				(end 8 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -3)
+				(mid 7.25 -3.75)
+				(end 8 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -1.5)
+				(mid 7.25 -2.25)
+				(end 8 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 0)
+				(mid 7.25 -0.75)
+				(end 8 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "T_Simple_Ferrite_1_1"
+			(polyline
+				(pts
+					(xy 5.7 0) (xy 5.7 -12)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.3 0) (xy 6.3 -12)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1 1)
+				(end 11 -13)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 8 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "N1"
+				(at 2.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "N2"
+				(at 9.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1)
+				(name "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 1)
+				(name "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 0 180)
+				(length 1)
+				(name "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -12 180)
+				(length 1)
+				(name "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "T_Simple_Iron"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 6 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 4.55 -0.86 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transformer - Iron Core"
+			(at 9 -17 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 6 -14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 8 -3.3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "T_Simple_Iron_0_1"
+			(polyline
+				(pts
+					(xy 1 -12) (xy 4 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 0) (xy 4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.7 0) (xy 5.7 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.3 0) (xy 6.3 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.9 -12) (xy 11 -12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 0) (xy 11 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -12)
+				(mid 4.75 -11.25)
+				(end 4 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -10.5)
+				(mid 4.75 -9.75)
+				(end 4 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -9)
+				(mid 4.75 -8.25)
+				(end 4 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -7.5)
+				(mid 4.75 -6.75)
+				(end 4 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -6)
+				(mid 4.75 -5.25)
+				(end 4 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -4.5)
+				(mid 4.75 -3.75)
+				(end 4 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -3)
+				(mid 4.75 -2.25)
+				(end 4 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4 -1.5)
+				(mid 4.75 -0.75)
+				(end 4 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -10.5)
+				(mid 7.25 -11.25)
+				(end 8 -12)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -9)
+				(mid 7.25 -9.75)
+				(end 8 -10.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -7.5)
+				(mid 7.25 -8.25)
+				(end 8 -9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -6)
+				(mid 7.25 -6.75)
+				(end 8 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -4.5)
+				(mid 7.25 -5.25)
+				(end 8 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -3)
+				(mid 7.25 -3.75)
+				(end 8 -4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 -1.5)
+				(mid 7.25 -2.25)
+				(end 8 -3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8 0)
+				(mid 7.25 -0.75)
+				(end 8 -1.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "T_Simple_Iron_1_1"
+			(rectangle
+				(start 1 1)
+				(end 11 -13)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 8 -0.7)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "N1"
+				(at 2.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "N2"
+				(at 9.5 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1)
+				(name "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 1)
+				(name "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N1-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 0 180)
+				(length 1)
+				(name "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -12 180)
+				(length 1)
+				(name "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N2-2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "U_LDO_Fixed"
+		(pin_numbers hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 6 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO - Fixed Output"
+			(at 6 -8 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 6 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U_LDO_Fixed_1_1"
+			(rectangle
+				(start 1 2)
+				(end 11 -5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 12 -3 180)
+				(length 1)
+				(name "Gnd"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "Gnd"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 1)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "Vin"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12 0 180)
+				(length 1)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "Vout"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "U_OPAMP"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 6 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 4 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 7 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 11 6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational amplifier"
+			(at 2.5 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "NI"
+			(at 6 -10 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U_OPAMP_1_1"
+			(polyline
+				(pts
+					(xy 12 -3) (xy 10.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.5 3) (xy 0.5 -9) (xy 10.5 -3) (xy 0.5 3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "+"
+				(at 2 -6 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(text "-"
+				(at 2 0 0)
+				(effects
+					(font
+						(size 1.25 1.25)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -6 0)
+				(length 0.5)
+				(name "Vin+"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "Vin+"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 0.5)
+				(name "Vin-"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "Vin-"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12 -3 180)
+				(length 0.5)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "Vout"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Y"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 3 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "NI"
+			(at 3 -3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 4 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.9 -14.4 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 3 -6.2 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Crystal*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Y_0_1"
+			(polyline
+				(pts
+					(xy 1.1 -1.2) (xy 1.1 1.34)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.91 -1.2) (xy 4.91 1.34)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.862 2.61)
+				(end 4.148 -2.47)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Y_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+)

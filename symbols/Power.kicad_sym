@@ -1,0 +1,2331 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "+12V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 0 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 1 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+12V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+12V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+12V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "+24V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -11 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 0 3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 0 -13 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+24V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+24V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+24V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "+3.3V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 0 3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 3 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+3.3V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+3.3V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+3.3V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "+36V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -16 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+36V"
+			(at 0 3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+36V\""
+			(at 0 -12.19 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+36V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+36V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+36V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "+48V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 0 3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 0 -11.19 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+48V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+48V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+48V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "+5V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 0 3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+5V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+5V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+5V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "-12V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -14 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "-12V_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "-12V_1_0"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "-12V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "-24V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-24V"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-24V\""
+			(at 0 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "-24V_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "-24V_1_0"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "-24V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "-3.3V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -11.46 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-3.3V"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-3V3\""
+			(at 0 -14 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "-3.3V_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "-3.3V_1_0"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "-3.3V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "-36V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-36V"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-36V\""
+			(at 0 -14 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "-36V_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "-36V_1_0"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "-36V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "-48V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-48V"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-48V\""
+			(at 0 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "-48V_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "-48V_1_0"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "-48V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "-5V"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 0 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "-5V_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "-5V_1_0"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "-5V"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AC"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC"
+			(at 0 6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 0 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AC_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.175)
+				(mid -0.635 3.8073)
+				(end -1.27 3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.175)
+				(mid 0.635 2.5427)
+				(end 1.27 3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 3.175)
+				(radius 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AC_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "AC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Earth"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 0 -8 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Earth_0_1"
+			(polyline
+				(pts
+					(xy -0.635 -1.905) (xy 0.635 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.127 -2.54) (xy 0.127 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Earth_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0) hide
+				(name "Earth"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GND"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 2.54 -10.668 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GND_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GND_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GNDA"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 0 -3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" "
+			(at 0 -8 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GNDA_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GNDA_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0) hide
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GND_CHASSIS"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_CHASSIS"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" "
+			(at 0 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GND_CHASSIS_0_1"
+			(polyline
+				(pts
+					(xy -1.3 -1.3) (xy -2 -2.4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.3) (xy -0.7 -2.4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.3 -1.3) (xy 0.6 -2.4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.3) (xy 1.3 -1.3) (xy -1.3 -1.3) (xy 0 -1.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GND_CHASSIS_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0) hide
+				(name "CHASSIS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PWR_FLAG"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#FLG"
+			(at 0.5 -13.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 -16 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Kicad strange way of managing power input/output pins"
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PWR_FLAG_1_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name "pwr"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_1_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "VBAT"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
+			(at 0 -14 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VBAT_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VBAT_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "VBUS"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -13 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 0 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VBUS_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VBUS_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "VCC"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 0 3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 0 -10 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VCC_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VCC_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "VCC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+)
