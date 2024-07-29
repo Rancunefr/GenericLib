@@ -1,0 +1,38 @@
+Pattes sur une grille de 3mm x 3mm
+Patte 0 sur l'origine
+Design des composants à l'horizontale
+Reference au dessus
+Valeur au dessous
+Valeur par default : NA
+Description Anglais
+
+
+Champs :
+* (center + show) Reference : R21 / C32, etc.
+* (center + show) Value : 32R7, etc. 
+* (non rempli) Footprint
+* (non rempli) Datasheet
+* Description
+(non rempli) Part#
+(non rempli) Commentaire
+
+Composants Generiques :
+- Dipoles sur 9mm
+Composants Generiques_small
+- Dipoles sur 3mm
+
+Regler le filtre de Footprint
+
+R  -> Resistance
+C  -> Condensateur
+L  -> Bobine
+T  -> Transformateur
+PB -> PushButton
+SW -> Switchs / PushButtons
+Q  -> Transistors / FET
+Y  -> Crystal
+D  -> Diodes
+F  -> Fuse
+FB -> Ferrite Bead
+V  -> Source de tension ( Reference, Battery, etc. )
+

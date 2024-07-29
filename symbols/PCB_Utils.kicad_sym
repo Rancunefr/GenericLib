@@ -1,0 +1,780 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "J_SWD"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.002)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 1 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 0 -15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Programing header for STM32"
+			(at 6 -19 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "J_SWD_1_1"
+			(rectangle
+				(start 1 2)
+				(end 11 -17)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3.8)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3.8)
+				(name "SWCLK"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3.8)
+				(name "GND"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0.01 -9 0)
+				(length 3.8)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3.8)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3.8)
+				(name "SWO"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MH_M3"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "MH"
+			(at 0 8 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -10 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCB_Utils:MH_M3"
+			(at 0 -8 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -10 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole with connection"
+			(at 0 -6 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Screw_size" "M3"
+			(at 0 4 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*Pad*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MH_M3_0_1"
+			(circle
+				(center 0 4)
+				(radius 2)
+				(stroke
+					(width 1)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MH_M3_1_1"
+			(pin input line
+				(at 0 0 90)
+				(length 2)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SB_Closed"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "SB"
+			(at 3 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.1 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.254 1.016 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2 -3.4 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder bridge (closed)"
+			(at 3 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SB_Closed_0_1"
+			(polyline
+				(pts
+					(xy 2.8 0.9) (xy 2.8 -0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 0) (xy 3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2 0.9) (xy 3.2 -0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.8 0.9)
+				(mid 1.9 0)
+				(end 2.8 -0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.2 -0.9)
+				(mid 4.1 0)
+				(end 3.2 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SB_Closed_1_1"
+			(polyline
+				(pts
+					(xy 2.88 0) (xy 3.1 0)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.9)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.9)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SB_Open"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "SB"
+			(at 3 2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -2.1 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 4.254 1.016 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2 -3.4 90)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder bridge (open)"
+			(at 3 -3 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SB_Open_0_1"
+			(polyline
+				(pts
+					(xy 2.8 0.9) (xy 2.8 -0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2 0.9) (xy 3.2 -0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.8 0.9)
+				(mid 1.9 0)
+				(end 2.8 -0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.2 -0.9)
+				(mid 4.1 0)
+				(end 3.2 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SB_Open_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 1.9)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 1.9)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TP"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0 4 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point"
+			(at 0 -6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TP_1_1"
+			(circle
+				(center 0 2)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 0 90)
+				(length 1.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+)
