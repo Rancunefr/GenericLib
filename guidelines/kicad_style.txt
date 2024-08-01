@@ -27,12 +27,17 @@ R  -> Resistance
 C  -> Condensateur
 L  -> Bobine
 T  -> Transformateur
-PB -> PushButton
 SW -> Switchs / PushButtons
 Q  -> Transistors / FET
 Y  -> Crystal
 D  -> Diodes
 F  -> Fuse
 FB -> Ferrite Bead
-V  -> Source de tension ( Reference, Battery, etc. )
+U  -> Chips
+BR -> Bridge Rectifier
+
+------
+
+Part# : Manufacturer Part#
+Manufacturer : Name of the Manufacturer
 
