@@ -197,7 +197,7 @@
 			)
 		)
 	)
-	(symbol "MH_M3"
+	(symbol "MH"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -223,7 +223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCB_Utils:MH_M3"
+		(property "Footprint" ""
 			(at 0 -8 0)
 			(effects
 				(font
@@ -269,15 +269,6 @@
 				(hide yes)
 			)
 		)
-		(property "Screw_size" "M3"
-			(at 0 4 0)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
 		(property "ki_keywords" "mounting hole"
 			(at 0 0 0)
 			(effects
@@ -296,7 +287,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MH_M3_0_1"
+		(symbol "MH_0_1"
 			(circle
 				(center 0 4)
 				(radius 2)
@@ -309,7 +300,7 @@
 				)
 			)
 		)
-		(symbol "MH_M3_1_1"
+		(symbol "MH_1_1"
 			(pin input line
 				(at 0 0 90)
 				(length 2)
