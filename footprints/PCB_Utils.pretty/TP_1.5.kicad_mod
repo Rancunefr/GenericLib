@@ -68,6 +68,18 @@
 			)
 		)
 	)
+	(property "Is_tested" "No"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb3d9c3a-6c7e-4be7-980c-93a4e78a8a98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1.5 0)

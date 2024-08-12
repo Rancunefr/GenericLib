@@ -1,0 +1,167 @@
+(footprint "SB_Open_2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Open solder bridge ( 4x2 mm )")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d03162b5-f810-45ab-9a23-d1d7b5017c46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bfb50fb-3785-4645-8acf-397dee016e62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d852fab-1b04-45db-b859-c6e65102b052")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f85e2e7e-f136-40b6-a195-5702be458f7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bac49397-4410-48bb-83bc-16f188d37b97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Is_tested" "No"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1fd61ba-e8ad-4ed6-8b24-03224e3a6a3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.2 -1.2)
+		(end 2.2 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "9fea4d72-df7b-426d-a466-a3f57562484a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7b2655a-85d3-4d61-9112-10d1b569b5c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -1.6 0)
+		(size 0.643 0.643)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3215 -0.22025) (xy -0.309264 -0.281766) (xy -0.274417 -0.333917) (xy -0.222266 -0.368764)
+					(xy -0.16075 -0.381) (xy 0.16075 -0.381) (xy 0.222266 -0.368764) (xy 0.274417 -0.333917) (xy 0.309264 -0.281766)
+					(xy 0.3215 -0.22025) (xy 0.3215 0.22025) (xy 0.309264 0.281766) (xy 0.274417 0.333917) (xy 0.222266 0.368764)
+					(xy 0.16075 0.381) (xy -0.16075 0.381) (xy -0.222266 0.368764) (xy -0.274417 0.333917) (xy -0.309264 0.281766)
+					(xy -0.3215 0.22025)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 2 0) (xy 1.1 -1) (xy -0.4 -1) (xy -0.4 1) (xy 1.1 1)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "1c1f68d6-7b6b-44fa-8c66-e3f2aa1c9f5d")
+	)
+	(pad "2" smd custom
+		(at 1.6 0)
+		(size 0.643 0.643)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3215 -0.22025) (xy -0.309264 -0.281766) (xy -0.274417 -0.333917) (xy -0.222266 -0.368764)
+					(xy -0.16075 -0.381) (xy 0.16075 -0.381) (xy 0.222266 -0.368764) (xy 0.274417 -0.333917) (xy 0.309264 -0.281766)
+					(xy 0.3215 -0.22025) (xy 0.3215 0.22025) (xy 0.309264 0.281766) (xy 0.274417 0.333917) (xy 0.222266 0.368764)
+					(xy 0.16075 0.381) (xy -0.16075 0.381) (xy -0.222266 0.368764) (xy -0.274417 0.333917) (xy -0.309264 0.281766)
+					(xy -0.3215 0.22025)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.4 1) (xy 0.4 -1) (xy -1.5 -1) (xy -0.6 0) (xy -1.5 1)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "f168e201-6cef-44c2-8ae4-4036cf5c0c50")
+	)
+)

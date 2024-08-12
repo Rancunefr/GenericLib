@@ -8,7 +8,6 @@
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "c37555ce-b7e1-456d-b3c2-635dc0b61528")
 		(effects
 			(font
@@ -61,6 +60,18 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Is_tested" "No"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32dc5812-2e95-46c5-891f-bce8291ef820")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
