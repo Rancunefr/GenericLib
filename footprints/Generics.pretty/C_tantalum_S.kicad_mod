@@ -1,0 +1,291 @@
+(footprint "C_tantalum_S"
+	(version 20240108)
+	(generator "footprint_generator")
+	(generator_version "0.1")
+	(layer "F.Cu")
+	(descr "[EIA 3216-12]")
+	(attr smd)
+	(pad "N" smd roundrect
+		(at -1.31 0)
+		(size 1.8 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "57b644c3-6c49-bfa7-2295-c24adc7b430f")
+	)
+	(pad "P" smd roundrect
+		(at 1.31 0)
+		(size 1.8 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "40b1a927-41e4-e836-75af-a80e40f55a0c")
+	)
+	(fp_line
+		(start -2.46 -1.15)
+		(end -2.46 1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "daea6dda-ee2f-611f-7a22-80ea817980b0")
+	)
+	(fp_line
+		(start -2.46 -1.15)
+		(end -1.476 -1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "201eb92a-b0e2-a797-5995-a6e44bdc2e33")
+	)
+	(fp_line
+		(start 2.46 -1.15)
+		(end 1.476 -1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "e030fd2d-173e-a1de-9083-75a016660946")
+	)
+	(fp_line
+		(start 2.46 -1.15)
+		(end 2.46 1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "a75903f0-d86d-bc72-33c8-4a85b422e055")
+	)
+	(fp_line
+		(start 2.46 1.15)
+		(end 1.476 1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "9941db04-496d-72a2-c4de-91eb82dead13")
+	)
+	(fp_line
+		(start -2.46 1.15)
+		(end -1.476 1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "387b5998-121b-c3fc-354c-5d33e77ed320")
+	)
+	(fp_line
+		(start 3.013 -1.15)
+		(end 3.013 1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "1daf9ae9-6481-432f-69f1-e3e14a27250c")
+	)
+	(fp_line
+		(start 2.46 -1.15)
+		(end 3.013 -1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "d757dbf1-ee0e-0cec-7867-de90c1131ec6")
+	)
+	(fp_line
+		(start 2.46 1.15)
+		(end 3.013 1.15)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "a3004581-9175-78b8-f778-760f6614915f")
+	)
+	(fp_line
+		(start -2.46 -1.15)
+		(end 2.46 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "3175dc83-ddc0-0054-a6cd-080fe47c6a93")
+	)
+	(fp_line
+		(start 2.46 -1.15)
+		(end 2.46 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "57aaa9af-f5f4-feb5-c062-d6d7791da187")
+	)
+	(fp_line
+		(start 2.46 1.15)
+		(end -2.46 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "158ac993-df6c-5dc3-8108-3d53779dadfd")
+	)
+	(fp_line
+		(start -2.46 1.15)
+		(end -2.46 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "5bacdf71-cc83-81da-b859-f7ffd5e6708e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a7cfd86-8573-f93b-4ae9-79d365d55db5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_line
+		(start -2.46 -1.15)
+		(end 2.46 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "6e406cb9-8f93-03a9-05af-e4ece910aeae")
+	)
+	(fp_line
+		(start 2.46 -1.15)
+		(end 2.46 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "6b8773dc-74c9-91b0-4122-ccd62eccd4c0")
+	)
+	(fp_line
+		(start 2.46 1.15)
+		(end -2.46 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "96e073e2-c738-4a13-b53a-2629ca10c294")
+	)
+	(fp_line
+		(start -2.46 1.15)
+		(end -2.46 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "deca23d0-3343-9cb7-02f6-4783f481a270")
+	)
+	(property "Reference" "REF**"
+		(at 0 -2.203 0)
+		(layer "F.SilkS")
+		(uuid "ae7864e0-34cd-e019-b54f-da1c664dad0d")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 2.703 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47e2c1bd-7599-03f1-ea9e-8592cf7f7990")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Description" "[EIA 3216-12]"
+		(at 0 4.202999999999999 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7b5a59f-6fba-ba3d-4b12-ce1bca67dad6")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Is_tested" "No"
+		(at 0 5.702999999999999 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "250745f9-0000-0230-bc47-a1aca275d467")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4b9dd48-cd7f-4124-1d90-04864ff0c760")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fd2d3e0-fa28-45f7-139a-046ec776b776")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(model "${GENERIC_LIB}/3d_models/TANTALUM_S_3216-12.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

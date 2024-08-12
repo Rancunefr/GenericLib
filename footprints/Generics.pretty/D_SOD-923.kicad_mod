@@ -1,0 +1,271 @@
+(footprint "D_SOD-923"
+	(version 20240108)
+	(generator "footprint_generator")
+	(generator_version "0.1")
+	(layer "F.Cu")
+	(descr "[JEITA SC-116A]")
+	(attr smd)
+	(pad "C" smd roundrect
+		(at -0.4375 0)
+		(size 0.325 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "ef07155a-02b3-51c9-d0be-091bb8f39fee")
+	)
+	(pad "A" smd roundrect
+		(at 0.4375 0)
+		(size 0.325 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "32e4f34e-66e5-ede2-a8c2-d022c1455e3f")
+	)
+	(fp_line
+		(start -0.8765 -0.4765)
+		(end -0.8765 0.4765)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "84c78300-67f2-232c-4486-1719d8d08531")
+	)
+	(fp_line
+		(start -0.8765 -0.4765)
+		(end -0.5258999999999999 -0.4765)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "e07331c2-8d2b-f844-dc92-0b2ff62eed97")
+	)
+	(fp_line
+		(start 0.8765 -0.4765)
+		(end 0.5258999999999999 -0.4765)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "ded90fd3-dba9-32e5-684e-141a0e173797")
+	)
+	(fp_line
+		(start 0.8765 -0.4765)
+		(end 0.8765 0.4765)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "789fb283-852c-2c7b-a70f-6c823fe8384f")
+	)
+	(fp_line
+		(start 0.8765 0.4765)
+		(end 0.5258999999999999 0.4765)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "ddc1a4cc-ab60-f6ad-8673-81a21815f935")
+	)
+	(fp_line
+		(start -0.8765 0.4765)
+		(end -0.5258999999999999 0.4765)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "9818a2ad-2e87-2154-2e24-7f9de3b068a5")
+	)
+	(fp_line
+		(start -1.153 -0.4765)
+		(end -1.153 0.4765)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "823858e1-6720-c9b0-9ad0-e7ced8f50920")
+	)
+	(fp_line
+		(start -0.8765 -0.4765)
+		(end 0.8765 -0.4765)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "28d0869c-7852-6227-9350-eae9b5aae7c3")
+	)
+	(fp_line
+		(start 0.8765 -0.4765)
+		(end 0.8765 0.4765)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "15472d4e-6bd3-b9ab-ec45-d1bdf9f08534")
+	)
+	(fp_line
+		(start 0.8765 0.4765)
+		(end -0.8765 0.4765)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "c516fff4-ecd6-4b28-d52b-df6faa73107a")
+	)
+	(fp_line
+		(start -0.8765 0.4765)
+		(end -0.8765 -0.4765)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "aee059d2-4b13-386c-531a-1b7739e00df1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9fdbbe21-8f36-91bc-6a13-4e8cec03d3ed")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_line
+		(start -0.85 -0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "df5c7338-9d8b-7514-c431-41a712069039")
+	)
+	(fp_line
+		(start 0.85 -0.45)
+		(end 0.85 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "ffd31f64-21c4-3dc0-93ea-21b1dc99c8e0")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end -0.85 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "3992bc16-2815-1682-42c5-4aad0572bcf6")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "a6ea06f3-a510-2e75-b6d3-6bc65679ede3")
+	)
+	(property "Reference" "REF**"
+		(at 0 -1.253 0)
+		(layer "F.SilkS")
+		(uuid "ab9f0dc0-127b-3430-a093-7b32a6a9ba41")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1.753 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47d4a741-6a66-20f3-e10d-f148333440b8")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Description" "[JEITA SC-116A]"
+		(at 0 3.253 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb565591-2f6d-d0f2-a75d-aa245d807de5")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Is_tested" "No"
+		(at 0 4.753 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a0941c0-747e-d748-d184-c1003f9ebbeb")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cb22208-d20f-a4f4-2fd4-28fd612f5155")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa62987-c378-6082-f15d-2750b268feab")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(model "${GENERIC_LIB}/3d_models/D_SOD-923.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

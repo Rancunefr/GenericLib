@@ -1,0 +1,271 @@
+(footprint "D_SOD-323"
+	(version 20240108)
+	(generator "footprint_generator")
+	(generator_version "0.1")
+	(layer "F.Cu")
+	(descr "Gull-wing style leads")
+	(attr smd)
+	(pad "C" smd roundrect
+		(at -1.25 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "973cc596-6f96-c2d0-11a4-244ae18c9aab")
+	)
+	(pad "A" smd roundrect
+		(at 1.25 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "a67ed23b-77a3-b352-4e3a-e423724c0855")
+	)
+	(fp_line
+		(start -2.0 -1.0)
+		(end -2.0 1.0)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "e0daf448-ddb6-0bf0-2bd3-afc8543d0f1a")
+	)
+	(fp_line
+		(start -2.0 -1.0)
+		(end -1.2 -1.0)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "9115ad72-b03c-c69a-086f-14cb9719229f")
+	)
+	(fp_line
+		(start 2.0 -1.0)
+		(end 1.2 -1.0)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "fe1733c8-49d7-d653-f042-ed95e5b11b1b")
+	)
+	(fp_line
+		(start 2.0 -1.0)
+		(end 2.0 1.0)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "27d186eb-14f6-b9ba-092c-a4319ac8c8aa")
+	)
+	(fp_line
+		(start 2.0 1.0)
+		(end 1.2 1.0)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "6dd75ebc-7e9e-088a-9106-0437855c31b5")
+	)
+	(fp_line
+		(start -2.0 1.0)
+		(end -1.2 1.0)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "48bb8a7f-0ae2-0aeb-87b9-4f41450042e9")
+	)
+	(fp_line
+		(start -2.2765 -1.0)
+		(end -2.2765 1.0)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer F.SilkS)
+		(uuid "7f4193c3-0571-cf06-527e-3e25531505c6")
+	)
+	(fp_line
+		(start -2.0 -1.0)
+		(end 2.0 -1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "c4578396-cb2e-4ffe-a2bc-69e94f346b67")
+	)
+	(fp_line
+		(start 2.0 -1.0)
+		(end 2.0 1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "63fe6f4d-a48e-9388-de1a-e690b3baa23b")
+	)
+	(fp_line
+		(start 2.0 1.0)
+		(end -2.0 1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "218101eb-e850-5282-2054-0a6b3d59ed43")
+	)
+	(fp_line
+		(start -2.0 1.0)
+		(end -2.0 -1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.Fab)
+		(uuid "2557c7a2-0119-045c-da1a-01038ae59482")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a395d07-e966-efac-17f5-3b7afdf9cf16")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_line
+		(start -2.0 -1.0)
+		(end 2.0 -1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "f9ffc203-d5e6-cc56-9b95-df2c72dd3d46")
+	)
+	(fp_line
+		(start 2.0 -1.0)
+		(end 2.0 1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "187377c1-d710-506b-80bc-4723760d273a")
+	)
+	(fp_line
+		(start 2.0 1.0)
+		(end -2.0 1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "620e59d7-a1ea-244e-a058-0e7a09d791f3")
+	)
+	(fp_line
+		(start -2.0 1.0)
+		(end -2.0 -1.0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer F.CrtYd)
+		(uuid "1a15a9ed-c188-8b60-0c11-8f654fae0b85")
+	)
+	(property "Reference" "REF**"
+		(at 0 -2.053 0)
+		(layer "F.SilkS")
+		(uuid "e44353be-f50b-9cd3-bf7c-e1de62c85fc6")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 2.553 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "babdff2e-21ba-6c22-d0a3-46ec9b755bd0")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Description" "Gull-wing style leads"
+		(at 0 4.053 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32646fde-3e30-c54f-fb3c-b9324a031625")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Is_tested" "No"
+		(at 0 5.553 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "391685d8-0b27-8689-a348-ca51e4824183")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "296617b9-5ca4-75a4-32d1-33ae6a26aa01")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eccbfd4-c9b3-d9e1-e5ee-e0265b9d1c92")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.153)
+			)
+		)
+	)
+	(model "${GENERIC_LIB}/3d_models/D_SOD-323.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
