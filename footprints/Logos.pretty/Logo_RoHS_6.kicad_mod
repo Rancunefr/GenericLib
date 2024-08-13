@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Logo_RoHS_6"
-		(at 0 4 0)
+		(at 0 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)

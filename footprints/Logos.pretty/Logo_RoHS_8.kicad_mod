@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Logo RoHS 8mm")
 	(property "Reference" "REF**"
-		(at 0 -5 0)
+		(at 0 -4.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Logo_RoHS_8"
-		(at 0 5.25 0)
+		(at 0 4.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
