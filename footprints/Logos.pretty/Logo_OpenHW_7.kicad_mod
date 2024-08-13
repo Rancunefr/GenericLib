@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Logo_OpenHW_7"
+	(property "Value" "Logo_OpenHW"
 		(at 0 4.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
