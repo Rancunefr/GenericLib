@@ -1,4 +1,4 @@
-67214791839676
+125816254630329
 Generics
 C_0201
 [EIA 0603]
@@ -147,55 +147,6 @@ LED 0805
 2
 2
 Generics
-D_SOD-123
-Gull-wing style leads
-
-0
-2
-2
-Generics
-D_SOD-123EP
-SOD-123F with cathod pad extended underneath
-
-0
-2
-2
-Generics
-D_SOD-123F
-Pad style leads
-
-0
-2
-2
-Generics
-D_SOD-323
-Gull-wing style leads
-
-0
-2
-2
-Generics
-D_SOD-323F
-Pad style leads
-
-0
-2
-2
-Generics
-D_SOD-523
-(Small Outline Diode 523, JEDEC)
-
-0
-2
-2
-Generics
-D_SOD-923
-[JEITA SC-116A]
-
-0
-2
-2
-Generics
 R_0201
 [EIA 0603]
 
@@ -272,3 +223,290 @@ SMC
 0
 2
 2
+Generics
+SOD-123
+Gull-wing style leads
+
+0
+2
+2
+Generics
+SOD-123F
+Pad style leads
+
+0
+2
+2
+Generics
+SOD-323
+Gull-wing style leads
+
+0
+2
+2
+Generics
+SOD-323F
+Pad style leads
+
+0
+2
+2
+Generics
+SOD-523
+[Small Outline Diode 523, JEDEC]
+
+0
+2
+2
+Generics
+SOD-923
+[JEITA SC-116A]
+
+0
+2
+2
+Generics
+SOT-23-3
+aka SOT-23
+
+0
+3
+3
+Generics
+SOT-23-5
+aka RJ-5, JEITA SC-74A, SOT-753, SOT-25
+
+0
+5
+5
+Generics
+SOT-23-6
+aka RJ-6, JEITA SC-74, SMT6, SOT-457, SOT-26
+
+0
+6
+6
+Generics
+SOT-23-8
+aka RJ-8, SM8, SOT-28
+
+0
+6
+6
+Logos
+Logo_CE_6
+Logo CE 6mm
+
+0
+0
+0
+Logos
+Logo_CE_7
+Logo CE 7mm
+
+0
+0
+0
+Logos
+Logo_CE_8
+Logo CE 8mm
+
+0
+0
+0
+Logos
+Logo_CE_9
+Logo CE 9mm
+
+0
+0
+0
+Logos
+Logo_CE_10
+Logo CE 10mm
+
+0
+0
+0
+Logos
+Logo_ESD_10
+ESD Sensible device 10mm
+
+0
+0
+0
+Logos
+Logo_ESD_15
+ESD Sensible device 15mm
+
+0
+0
+0
+Logos
+Logo_ESD_20
+ESD Sensible device 20mm
+
+0
+0
+0
+Logos
+Logo_ISO7010_W017_10
+Hot Surface 10mm
+
+0
+0
+0
+Logos
+Logo_ISO7010_W017_15
+Hot Surface 15mm
+
+0
+0
+0
+Logos
+Logo_ISO7010_W017_20
+Hot Surface 20mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_6
+Logo Open Hardware 6mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_7
+Logo Open Hardware 7mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_8
+Logo Open Hardware 8mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_9
+Logo Open Hardware 9mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_10
+Logo Open Hardware 10mm
+
+0
+0
+0
+Logos
+Logo_RoHS_6
+Logo RoHS 6mm
+
+0
+0
+0
+Logos
+Logo_RoHS_7
+Logo RoHS 7mm
+
+0
+0
+0
+Logos
+Logo_RoHS_8
+Logo RoHS 8mm
+
+0
+0
+0
+Logos
+Logo_RoHS_9
+Logo RoHS 9mm
+
+0
+0
+0
+Logos
+Logo_RoHS_10
+Logo RoHS 10mm
+
+0
+0
+0
+PCB_Utils
+Fiducial_1_2
+Circular Fiducial, 1mm bare copper, 2mm soldermask opening
+fiducial
+0
+1
+0
+PCB_Utils
+MH_M2.5
+Mounting Hole  M2.5
+
+0
+9
+1
+PCB_Utils
+MH_M3
+Mounting Hole M3
+
+0
+9
+1
+PCB_Utils
+SB_Open_1
+Open solder bridge ( 3 mm diameter )
+
+0
+2
+2
+PCB_Utils
+SB_Open_2
+Open solder bridge ( 4x2 mm )
+
+0
+2
+2
+PCB_Utils
+SB_Open_3
+Open solder bridge ( 4x2 mm )
+
+0
+2
+2
+PCB_Utils
+SB_Open_4
+Open solder bridge ( 3 mm diameter )
+
+0
+2
+2
+PCB_Utils
+TP_1
+Test point - diam 1 mm
+
+0
+1
+1
+PCB_Utils
+TP_1.5
+Test point - diam 1.5 mm
+
+0
+1
+1
+PCB_Utils
+TP_2
+Test point - diam 2 mm
+
+0
+1
+1
