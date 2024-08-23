@@ -54,6 +54,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "Logos:Logo_CE_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Logo_CE_0_0"
 			(polyline
 				(pts
@@ -152,6 +161,15 @@
 		)
 		(property "Description" "ESD Sensible device"
 			(at 0 -8.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Logos:Logo_ESD_*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,6 +425,15 @@
 			(effects
 				(font
 					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Logos:Logo_ISO_7010_W017_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -701,6 +728,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "Logos:Logo_OpenHW_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Logo_OpenHW_0_0"
 			(polyline
 				(pts
@@ -855,6 +891,15 @@
 			(effects
 				(font
 					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Logos:Logo_RoHS_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

@@ -242,7 +242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M3 Mounting Hole with connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 0 -6 0)
 			(effects
 				(font
@@ -278,7 +278,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "MountingHole*Pad*"
+		(property "ki_fp_filters" "PCB_Utils_MH_M2.5 PCB_Utils_MH_M3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -389,6 +389,15 @@
 			(effects
 				(font
 					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "PCB_Utils:SB_Closed_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -577,6 +586,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "PCB_Utils:SB_Open_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SB_Open_0_1"
 			(polyline
 				(pts
@@ -732,6 +750,15 @@
 			(effects
 				(font
 					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "PCB_Utils:TP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

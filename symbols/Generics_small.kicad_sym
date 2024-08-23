@@ -74,11 +74,11 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
+		(property "ki_fp_filters" "Generics:C_????"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.25 1.25)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -220,11 +220,11 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CP_*"
+		(property "ki_fp_filters" "Generics:C_tantalum_?"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.25 1.25)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -374,11 +374,11 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CP_*"
+		(property "ki_fp_filters" "Generics:C_tantalum_?"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.25 1.25)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -526,11 +526,11 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CP_*"
+		(property "ki_fp_filters" "Generics:C_????"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.25 1.25)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -672,6 +672,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "Generics:R_????"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R__0_1"
 			(polyline
 				(pts
@@ -793,6 +802,15 @@
 			(effects
 				(font
 					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Generics:R_????"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
