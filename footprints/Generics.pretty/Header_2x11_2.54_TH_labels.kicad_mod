@@ -160,7 +160,7 @@
 		(layer "F.Fab")
 		(uuid "f91ef213-0318-4b27-a951-3a87520e447d")
 	)
-	(fp_text user "### PIN18 LABEL"
+	(fp_text user "${PIN_18}"
 		(at 5.08 20.32 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -173,7 +173,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN13 LABEL"
+	(fp_text user "${PIN_13}"
 		(at -2.54 15.24 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -186,7 +186,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN17 LABEL"
+	(fp_text user "${PIN_17}"
 		(at -2.54 20.32 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -199,7 +199,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN09 LABEL"
+	(fp_text user "${PIN_09}"
 		(at -2.54 10.16 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -212,7 +212,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN20 LABEL"
+	(fp_text user "${PIN_20}"
 		(at 5.08 22.86 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -225,7 +225,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN22 LABEL"
+	(fp_text user "${PIN_22}"
 		(at 5.08 25.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -238,7 +238,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN19 LABEL"
+	(fp_text user "${PIN_19}"
 		(at -2.54 22.86 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -251,7 +251,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN15 LABEL"
+	(fp_text user "${PIN_15}"
 		(at -2.54 17.78 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -264,7 +264,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN03 LABEL"
+	(fp_text user "${PIN_03}"
 		(at -2.54 2.54 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -277,7 +277,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN07 LABEL"
+	(fp_text user "${PIN_07}"
 		(at -2.54 7.62 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -290,7 +290,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN05 LABEL"
+	(fp_text user "${PIN_05}"
 		(at -2.54 5.08 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -303,7 +303,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN11 LABEL"
+	(fp_text user "${PIN_11}"
 		(at -2.54 12.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -316,7 +316,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN12 LABEL"
+	(fp_text user "${PIN_12}"
 		(at 5.08 12.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -329,7 +329,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN02 LABEL"
+	(fp_text user "${PIN_02}"
 		(at 5.08 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -342,7 +342,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN04 LABEL"
+	(fp_text user "${PIN_04}"
 		(at 5.08 2.54 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -355,7 +355,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN06 LABEL"
+	(fp_text user "${PIN_06}"
 		(at 5.08 5.08 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -368,7 +368,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN10 LABEL"
+	(fp_text user "${PIN_10}"
 		(at 5.08 10.16 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -381,7 +381,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN14 LABEL"
+	(fp_text user "${PIN_14}"
 		(at 5.08 15.24 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -394,7 +394,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN01 LABEL"
+	(fp_text user "${PIN_01}"
 		(at -2.54 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -407,7 +407,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "### PIN08 LABEL"
+	(fp_text user "${PIN_08}"
 		(at 5.08 7.62 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -420,7 +420,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN16 LABEL"
+	(fp_text user "${PIN_16}"
 		(at 5.08 17.78 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -433,7 +433,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "### PIN21 LABEL"
+	(fp_text user "${PIN_21}"
 		(at -2.54 25.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
