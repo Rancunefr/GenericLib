@@ -1,4 +1,7 @@
 test/test-backups
 test/~*
 test/fp-info-cache
+symbols/*.bak
+test/test_symbols/test-backups/*
+
 
