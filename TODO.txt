@@ -1,0 +1,14 @@
+Empreintes à réaliser :
+
+SOD-128
+SOD-563
+SOD-723
+SOD-882
+SOP
+TO-252 (DPAK)
+TO-263 (D2PAK)
+TO-268 (D3PAK)
+SOT-143
+SOT-233
+
+
