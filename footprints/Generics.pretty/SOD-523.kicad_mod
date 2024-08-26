@@ -3,7 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "[Small Outline Diode 523, JEDEC]")
 	(property "Reference" "REF**"
 		(at 0 -1.353 0)
 		(layer "F.SilkS")

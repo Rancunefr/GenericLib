@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "aka SOT-23")
+	(descr "[SOT-23]")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(layer "F.SilkS")
