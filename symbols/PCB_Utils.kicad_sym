@@ -124,7 +124,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -6 0)
+				(at 0 -15 0)
 				(length 3.8)
 				(name "GND"
 					(effects
@@ -142,7 +142,7 @@
 				)
 			)
 			(pin passive line
-				(at 0.01 -9 0)
+				(at 0 -9 0)
 				(length 3.8)
 				(name "SWDIO"
 					(effects
@@ -178,7 +178,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15 0)
+				(at 0 -6 0)
 				(length 3.8)
 				(name "SWO"
 					(effects
