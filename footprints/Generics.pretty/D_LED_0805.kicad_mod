@@ -1,7 +1,7 @@
 (footprint "D_LED_0805"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic LED 0805")
 	(property "Reference" "REF**"
@@ -20,18 +20,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2037d0d4-26e0-9779-18db-d86b89afb6ce")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.153)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2446b04f-ed55-ce94-54b8-64ab7797f814")
 		(effects
 			(font
 				(size 1 1)
@@ -240,23 +228,24 @@
 	(pad "A" smd roundrect
 		(at 0.9 0)
 		(size 0.9 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin_ratio -0.1)
 		(thermal_bridge_angle 45)
 		(uuid "5c424a88-b7aa-23cd-664f-80d940b1df24")
 	)
-	(pad "C" smd roundrect
+	(pad "K" smd roundrect
 		(at -0.9 0)
 		(size 0.9 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin_ratio -0.1)
 		(thermal_bridge_angle 45)
 		(uuid "f3a59744-80d9-5458-fddc-c26eab5cac27")
 	)
+	(embedded_fonts no)
 	(model "${GENERICLIB}/3d_models/D_LED_0805_RED.step"
 		(offset
 			(xyz 0 0 0)
