@@ -1,9 +1,11 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "J_SWD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.002)
 		)
@@ -124,16 +126,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15 0)
+				(at 0 -6 0)
 				(length 3.8)
-				(name "GND"
+				(name "SWO"
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
 					)
 				)
-				(number "3"
+				(number "6"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -178,16 +180,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -6 0)
+				(at 0 -15 0)
 				(length 3.8)
-				(name "SWO"
+				(name "GND"
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -196,11 +198,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MH"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -278,7 +285,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "PCB_Utils_MH_M2.5 PCB_Utils_MH_M3"
+		(property "ki_fp_filters" "PCB_Utils:MH_M2.5 PCB_Utils:MH_M3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -320,11 +327,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SB_Closed"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -415,6 +427,18 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 2.8 -0.9)
+				(mid 1.9 0)
+				(end 2.8 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 3 0) (xy 3 0)
@@ -440,21 +464,9 @@
 				)
 			)
 			(arc
-				(start 2.8 0.9)
-				(mid 1.9 0)
-				(end 2.8 -0.9)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.2 -0.9)
+				(start 3.2 0.9)
 				(mid 4.1 0)
-				(end 3.2 0.9)
+				(end 3.2 -0.9)
 				(stroke
 					(width 0)
 					(type default)
@@ -514,11 +526,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SB_Open"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -608,6 +625,18 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 2.8 -0.9)
+				(mid 1.9 0)
+				(end 2.8 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 3.2 0.9) (xy 3.2 -0.9)
@@ -621,21 +650,9 @@
 				)
 			)
 			(arc
-				(start 2.8 0.9)
-				(mid 1.9 0)
-				(end 2.8 -0.9)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.2 -0.9)
+				(start 3.2 0.9)
 				(mid 4.1 0)
-				(end 3.2 0.9)
+				(end 3.2 -0.9)
 				(stroke
 					(width 0)
 					(type default)
@@ -683,11 +700,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TP"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -794,5 +816,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
