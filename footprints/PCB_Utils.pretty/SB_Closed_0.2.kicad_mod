@@ -1,7 +1,7 @@
 (footprint "SB_Closed_0.2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "0.2mm Closed solder bridge ( 3 mm diameter )")
 	(property "Reference" "REF**"
@@ -22,19 +22,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3bfb50fb-3785-4645-8acf-397dee016e62")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 2.3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3d852fab-1b04-45db-b859-c6e65102b052")
 		(effects
 			(font
 				(size 1 1)
@@ -98,9 +85,20 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "da5c7ee6-03d1-4fdd-bcb4-858d05a8a22d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ea248760-94f0-4e0f-97f3-bc085ca99bd5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.3 0)
@@ -184,4 +182,5 @@
 		)
 		(uuid "5a762513-ba4a-4e2b-92f4-45505b7b81d7")
 	)
+	(embedded_fonts no)
 )
