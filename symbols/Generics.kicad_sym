@@ -1079,7 +1079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part # " ""
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(effects
 				(font
