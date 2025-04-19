@@ -1,0 +1,139 @@
+(footprint "C_1808"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.308611 0)
+		(layer "F.SilkS")
+		(uuid "40f89c5a-ea94-47bb-95ed-b3c4c5dad48c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_1808"
+		(at 0 3.308611 0)
+		(layer "F.Fab")
+		(uuid "20a7a44b-7fd9-41f9-b2ef-a70c053662e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf01a167-ae94-4d7e-a086-9e9629caba05")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ac2e680-e2e0-410e-9786-a3c2e4373696")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.213589 -1.3)
+		(end -3.213589 1.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40ff4812-35dd-4793-887a-6ed45b0e2cc2")
+	)
+	(fp_line
+		(start -3.213589 1.308611)
+		(end 3.213589 1.308611)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c1dc961-a196-42d7-acd4-74771bda216b")
+	)
+	(fp_line
+		(start 3.213589 -1.3)
+		(end -3.213589 -1.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b648080-6733-480a-9a8d-5bb1334b896d")
+	)
+	(fp_line
+		(start 3.213589 -1.3)
+		(end 3.213589 1.308611)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d99ebea-033d-41ff-aa94-3f37cbf8b9c1")
+	)
+	(fp_rect
+		(start -3.2 -1.3)
+		(end 3.2 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "96dcd022-6aaa-4063-9772-ab3ec587edf1")
+	)
+	(fp_text user "REF**"
+		(at 0 5.308611 0)
+		(layer "F.Fab")
+		(uuid "667c87c3-9649-46e6-8536-b72b2828ad8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.092456 0)
+		(size 1.784989 2.159995)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "59dfcc58-3ea5-4216-bf2b-87bf35147910")
+	)
+	(pad "2" smd rect
+		(at 2.092456 0)
+		(size 1.784989 2.159995)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "056e82d1-6a7d-4e52-808a-049feb4d5ad9")
+	)
+	(embedded_fonts no)
+	(model "JLC2KiCad_lib/footprint/packages3d/C1808.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
