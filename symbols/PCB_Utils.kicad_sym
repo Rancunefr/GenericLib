@@ -77,6 +77,60 @@
 				(hide yes)
 			)
 		)
+		(property "PIN_01" "VDD"
+			(at 15 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_02" "SWCLK"
+			(at 15 -3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_03" "SWO"
+			(at 15 -6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_04" "SWDIO"
+			(at 15 -9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_05" "NRST"
+			(at 15 -12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_06" "GND"
+			(at 15 -15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "J_SWD_1_1"
 			(rectangle
 				(start 1 2)
