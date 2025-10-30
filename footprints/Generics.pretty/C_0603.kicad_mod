@@ -1101,7 +1101,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${GENERICLIB}/3d_models/C_0603_060.step"
+	(model "kicad-embed://C_0603_060.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -1113,7 +1113,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${GENERICLIB}/3d_models/C_0603_070.step"
+	(model "kicad-embed://C_0603_070.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -1125,7 +1125,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${GENERICLIB}/3d_models/C_0603_080.step"
+	(model "kicad-embed://C_0603_080.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -1137,7 +1137,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${GENERICLIB}/3d_models/C_0603_090.step"
+	(model "kicad-embed://C_0603_090.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
