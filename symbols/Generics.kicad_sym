@@ -11443,6 +11443,1597 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "J_Connector_1x17"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 4 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header"
+			(at 4 5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 6 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 6 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 6 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_04" "## PIN4"
+			(at 6 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_05" "## PIN5"
+			(at 6 -12 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_06" "## PIN6"
+			(at 6 -15 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_07" "## PIN7"
+			(at 6 -18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_08" "## PIN8"
+			(at 6 -21 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_09" "## PIN9"
+			(at 6 -24 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_10" "## PIN10"
+			(at 6 -27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_11" "## PIN11"
+			(at 6 -30 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_12" "## PIN12"
+			(at 6 -33 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_13" "## PIN13"
+			(at 6 -36 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_14" "## PIN14"
+			(at 6 -39 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_15" "## PIN15"
+			(at 6 -42 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_16" "## PIN16"
+			(at 6 -45 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_17" "## PIN17"
+			(at 6 -48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_fp_filters" "Generics:Header_1x17_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "J_Connector_1x17_0_1"
+			(circle
+				(center 4 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -12)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -15)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -18)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -21)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -24)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -27)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -30)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -33)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -36)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -39)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -42)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -45)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -48)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x17_1_1"
+			(rectangle
+				(start 3 1.1)
+				(end 5 -49)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3.5)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3.5)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3.5)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3.5)
+				(name "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3.5)
+				(name "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3.5)
+				(name "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3.5)
+				(name "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3.5)
+				(name "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3.5)
+				(name "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3.5)
+				(name "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3.5)
+				(name "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3.5)
+				(name "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3.5)
+				(name "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 3.5)
+				(name "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48 0)
+				(length 3.5)
+				(name "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "J_Connector_1x18"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 4 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -31 -9 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -31 -15 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31 -11 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header"
+			(at 4 5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 -21 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "## PIN1"
+			(at 6 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_02" "## PIN2"
+			(at 6 -3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_03" "## PIN3"
+			(at 6 -6 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_04" "## PIN4"
+			(at 6 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_05" "## PIN5"
+			(at 6 -12 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_06" "## PIN6"
+			(at 6 -15 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_07" "## PIN7"
+			(at 6 -18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_08" "## PIN8"
+			(at 6 -21 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_09" "## PIN9"
+			(at 6 -24 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_10" "## PIN10"
+			(at 6 -27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_11" "## PIN11"
+			(at 6 -30 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_12" "## PIN12"
+			(at 6 -33 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_13" "## PIN13"
+			(at 6 -36 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_14" "## PIN14"
+			(at 6 -39 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_15" "## PIN15"
+			(at 6 -42 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_16" "## PIN16"
+			(at 6 -45 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_17" "## PIN17"
+			(at 6 -48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "PIN_18" "## PIN18"
+			(at 6 -51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_fp_filters" "Generics:Header_1x18_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "J_Connector_1x18_0_1"
+			(circle
+				(center 4 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -12)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -15)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -18)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -21)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -24)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -27)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -30)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -33)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -36)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -39)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -42)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -45)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -48)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -51)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_Connector_1x18_1_1"
+			(rectangle
+				(start 3 1)
+				(end 5 -52)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3.5)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3.5)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3.5)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3.5)
+				(name "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3.5)
+				(name "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3.5)
+				(name "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3.5)
+				(name "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3.5)
+				(name "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3.5)
+				(name "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3.5)
+				(name "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3.5)
+				(name "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3.5)
+				(name "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3.5)
+				(name "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 3.5)
+				(name "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48 0)
+				(length 3.5)
+				(name "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -51 0)
+				(length 3.5)
+				(name "18"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "J_Connector_2x02"
 		(pin_names
 			(offset 0)
