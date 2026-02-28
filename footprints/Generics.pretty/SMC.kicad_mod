@@ -235,7 +235,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "5d6e5c39-ad80-d3e0-f6f6-8a4661726ea8")
 	)
-	(pad "C" smd roundrect
+	(pad "K" smd roundrect
 		(at -3.5 0)
 		(size 2.2 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
